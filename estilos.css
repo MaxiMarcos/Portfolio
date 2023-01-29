@@ -50,7 +50,6 @@ header {
 .linkDistinto:hover {
 
     color: rgb(170, 40, 73);
-    cursor: pointer;
 }
 
 .divHeader_nav_a:hover {
@@ -72,7 +71,7 @@ header {
 
 main {
 
-    height: 40rem;
+    height: 50rem;
 }
 
 .divMain {
@@ -91,12 +90,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.divMain_divP_p {
+.divMain_divP p {
 
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
+}
+
+.container h3 {
+
+    color: white;
+    margin-top: .5rem;
 }
 
 .divMain_divIMG {
@@ -180,7 +186,7 @@ footer p {
 
 .sectionForm {
 
-    margin-top: 12rem;
+    margin-top: 2rem;
 }
 
 .aaa {
