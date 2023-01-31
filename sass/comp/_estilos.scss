@@ -1,3 +1,5 @@
+@use "mixins";
+
 * {
     margin: 0;
     padding: 0;
@@ -40,22 +42,20 @@ header {
 
     color: beige;
     text-decoration: none;
+
+    &:hover {
+        color: rgb(170, 40, 73);
+        cursor: pointer;
+    }
 }
 
 .linkDistinto {
 
     color: beige;
-}
 
-.linkDistinto:hover {
-
-    color: rgb(170, 40, 73);
-}
-
-.divHeader_nav_a:hover {
-
-    color: rgb(170, 40, 73);
-    cursor: pointer;
+    &:hover {
+        color: rgb(170, 40, 73);
+    }
 }
 
 .divLogo {
@@ -77,19 +77,15 @@ main {
 .divMain {
 
     height: 100%;
-    display: flex;
+    @include mixins.flex-all-center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
 }
 
 .divMain_divP {
     
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex-all-center;
     flex-direction: column;
 }
 
@@ -116,14 +112,14 @@ main {
     border: 3px solid;
     transition: 0.5s;
     object-fit: cover;
-}
 
-.divMain_divIMG img:hover {
+    &:hover {
 
-    opacity: 0.7;
-    color: rgb(170, 40, 73);
-    cursor: pointer;
-    transform: scale(1.2);
+        opacity: 0.7;
+        color: rgb(170, 40, 73);
+        cursor: pointer;
+        transform: scale(1.2);
+    }
 }
 
 .santex {
@@ -136,17 +132,13 @@ main {
 
 .divAside2 {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex-all-center;
     height: 15rem;
 }
 
 .divAside2_redes {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include mixins.flex-all-center;
 }
 
 .divAside2_redes img {
@@ -158,14 +150,12 @@ main {
     border-radius: 2rem;
     transition: 0.5s;
     object-fit: cover;
+
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
 }
-
-.divAside2_redes img:hover {
-
-    transform: scale(1.2);
-    cursor: pointer;
-}
-
 
 footer {
 

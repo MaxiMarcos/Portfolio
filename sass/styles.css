@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1318101781/photo/stone-black-texture-background-dark-cement-wall.jpg?b=1&s=170667a&w=0&k=20&c=KZzF_N_cRN5OXL873BJWfKfsBY0qN6cpxXEb_RUpNNs=);
+}
+
+header {
+  border: 3px solid rgb(0, 0, 0);
+  height: 8rem;
+  display: flex;
+}
+
+.divHeader {
+  height: 100%;
+  width: 90%;
+  display: flex;
+}
+
+.divHeader_nav {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10rem;
+}
+
+.divHeader_nav_a {
+  color: beige;
+  text-decoration: none;
+}
+.divHeader_nav_a:hover {
+  color: rgb(170, 40, 73);
+  cursor: pointer;
+}
+
+.linkDistinto {
+  color: beige;
+}
+.linkDistinto:hover {
+  color: rgb(170, 40, 73);
+}
+
+.divLogo {
+  height: 100%;
+}
+
+.divLogo a img {
+  height: 8rem;
+  padding: 1rem;
+}
+
+main {
+  height: 50rem;
+}
+
+.divMain {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divMain_divP {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.divMain_divP p {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.container h3 {
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.divMain_divIMG {
+  height: 10rem;
+  padding: 2rem;
+}
+
+.divMain_divIMG img {
+  border: 3px solid;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.divMain_divIMG img:hover {
+  opacity: 0.7;
+  color: rgb(170, 40, 73);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.santex {
+  outline: none;
+  text-decoration: none;
+  color: rgb(170, 40, 73);
+}
+
+.divAside2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+}
+
+.divAside2_redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divAside2_redes img {
+  height: 6rem;
+  width: 6rem;
+  padding: 1rem;
+  border: 1px solid rgb(170, 40, 73);
+  border-radius: 2rem;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.divAside2_redes img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 11rem;
+}
+
+footer p {
+  color: rgb(170, 165, 165);
+  text-decoration: overline;
+  font-size: 1.5rem;
+}
+
+.sectionForm {
+  margin-top: 2rem;
+}
+
+.aaa {
+  color: rgb(172, 148, 148);
+  border-top: 1px solid rgb(13, 84, 141);
+}
+
+/*# sourceMappingURL=styles.css.map */
