@@ -71,7 +71,7 @@
         <div class="divMain">
             
             <div class="divMain_divP">
-                <p class="divMain_divP_p"> Hi, my name is Maximiliano Abel Marcos and live in Córdoba Capital, Argentina. <br> I'm FRONT-END DEVELOPER and i studying  in <a class="santex" href="https://santexgroup.com/">Santex Academy</a>. <br> I search my first work experience in IT with much much zest
+                <p class="divMain_divP_p" id="prueba"> Hi, my name is Maximiliano Abel Marcos and live in Córdoba Capital, Argentina. <br> I'm FRONT-END DEVELOPER and i studying  in <a class="santex" href="https://santexgroup.com/">Santex Academy</a>. <br> I search my first work experience in IT with much much zest
                 My skills: 
                 </p>
 
@@ -151,22 +151,22 @@
     <section id="formulario" class="sectionForm">
         
         <div class="container py-3 fs-4 rounded aaa w-50">
-            <form action="">
+            <form action="" id="mi-form">
                 <div class="mb-3">
                     <label for="exampleInputName" class="form-label">Name</label>
-                    <input type="text" class="form-control py-2 fs-4" id="exampleInputName" aria-describedby="emailHelp" placeholder="Tu nombre">
+                    <input type="text" id="mi-name" class="form-control py-2 fs-4" id="exampleInputName" aria-describedby="emailHelp" placeholder="Tu nombre">
         
                   </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control py-2 fs-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu email">
+                  <input type="email" id="mi-email" class="form-control py-2 fs-4" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tu email">
         
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Message</label>
-                  <input type="text" class="form-control py-5 fs-4" id="exampleInputPassword1" placeholder="Escribir...">
+                  <input type="text" id="mi-mensaje" class="form-control py-5 fs-4" id="exampleInputPassword1" placeholder="Escribir...">
                 </div>
-                <button type="submit" class="btn btn-outline-primary m-1 w-100">ENVIAR</button>
+                <button type="submit" class="btn btn-outline-primary m-1 w-100" id="mi-submit">ENVIAR</button>
               </form>  
         </div>
         
@@ -176,7 +176,8 @@
             <p> Copyright © Maximiliano Abel Marcos 2023 </p>
     </footer>
 
-    
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="index.js"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script>
