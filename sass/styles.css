@@ -160,4 +160,38 @@ footer p {
   border-top: 1px solid rgb(13, 84, 141);
 }
 
+section {
+  display: flex;
+  color: white;
+}
+
+section div {
+  font-size: 2rem;
+  width: 65%;
+}
+
+section div h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+section div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+  color: rgb(148, 12, 80);
+}
+
+section img {
+  height: 25rem;
+  padding: 1rem;
+}
+
+section .imgOpen {
+  width: 30rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
